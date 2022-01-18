@@ -1,0 +1,6 @@
+<!--<pre>
+    {{products | json }}Pipe |json recibe o transforma la informacion de datos |json es por defecto en angular pero se puede cambiar 
+</pre>-->
+<section class="products">
+    <app-product (addToCartClick)="addToCart($event)" [product]="product" *ngFor="let product of products"></app-product>
+</section>

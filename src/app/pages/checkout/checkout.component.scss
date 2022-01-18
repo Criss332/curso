@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 1rem 5rem;
+    flex: 1 1 auto;
+}
+
+.form {
+    width: 100%;
+}
+
+.form_element {
+    margin: auto;
+    display: block;
+    width: 40%;
+    margin-bottom: .5rem;
+    padding: 5px;
+}
+
+.container_button {
+    display: block;
+    width: 37%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    button {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

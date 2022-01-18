@@ -1,0 +1,15 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.button_inic {
+    text-decoration: none;
+    color: white;
+}
+
+.mouseHover:hover {
+    background-color: rgb(74, 133, 209);
+    cursor: pointer;
+    transition: all 0.7 ease-in-out;
+    padding: 2px;
+}
